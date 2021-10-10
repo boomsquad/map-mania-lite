@@ -28,7 +28,7 @@ function updateGame() {
     var zoomLevel = gMap.getZoom();
     var inBounds = false;
 
-    if (gMap.getBounds().contains({lat:41.8781,lng:87.6298})) {
+    if (gMap.getBounds().contains({lat:41.8781,lng:-87.6298})) {
         inBounds = true;
     }
 
