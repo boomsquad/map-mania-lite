@@ -5,7 +5,7 @@ function initMap() {
         center: {lat: 41.878, lng: 10}, zoom: 3});
 
     // Marker for Chicago, Il
-    var marker = new google.maps.Marker({position:{lat:41.8781,lng:87.6298}, map:gMap});
+    var marker = new google.maps.Marker({position:{lat:41.8781,lng:-87.6298}, map:gMap});
 
     var marker2 = new google.maps.Marker({position:{lat:36.3932,lng:25.4615}, map:gMap});
     marker2.setIcon('https://maps.google.com/mapfiles/kml/shapes/info-i_maps.png');
